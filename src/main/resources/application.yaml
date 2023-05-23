@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    url: jdbc:postgresql://containers-us-west-157.railway.app:6507/railway
+    username: postgres
+    password: BAIcDRSMWxN4ATQYmAAr
+    driver-class-name: org.postgresql.Driver
